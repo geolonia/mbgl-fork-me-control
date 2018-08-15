@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
   hash: true
 });
 map.addControl(new mapboxgl.NavigationControl());
-map.addControl(new mapboxgl.GeolocateControl(), 'top-left');
+map.addControl(new mapboxgl.GeolocateControl());
 
 map.addControl(new ForkMeConntrol({
   url: 'https://github.com/tilecloud/mbgl-fork-me-control/',
