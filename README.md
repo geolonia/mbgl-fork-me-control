@@ -6,7 +6,7 @@ This is a Mapbox GL JS plugin to add GitHub's fork-me ribbon.
 
 https://tilecloud.github.io/mbgl-fork-me-control/
 
-![](https://www.evernote.com/l/ABXt9aD736RLQKn6xvUKV_xf4j91lesfDn4B/image.png)
+![](https://www.evernote.com/l/ABXkH-a_3vdIm4yDn-OOgfXUjmsJSObhe6IB/image.png)
 
 ## Install
 
