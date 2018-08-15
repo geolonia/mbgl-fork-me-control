@@ -17,7 +17,7 @@ $ npm install @tilecloud/mbgl-fork-me-control --save
 ## How to use
 
 ```node
-import TileCloudControl from '@tilecloud/mbgl-fork-me-control'
+import ForkMeConntrol from '@tilecloud/mbgl-fork-me-control'
 
 const map = new mapboxgl.Map({
   container: 'map',
