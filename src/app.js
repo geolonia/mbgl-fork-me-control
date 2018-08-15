@@ -27,8 +27,4 @@ ForkMeConntrol.prototype.onRemove = () => {
 
 ForkMeConntrol.prototype.getDefaultPosition = () => 'top-left'
 
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-  module.exports = ForkMeConntrol;
-} else {
-  window.ForkMeConntrol = ForkMeConntrol;
-}
+module.exports = ForkMeConntrol;
