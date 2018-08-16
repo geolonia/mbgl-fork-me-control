@@ -5,4 +5,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{}],"A2T1":[function(require,module,exports) {
 "use strict";var o=require("@tilecloud/mbgl-tilecloud-control"),t=r(o),l=require("../src/app"),e=r(l);function r(o){return o&&o.__esModule?o:{default:o}}var n=new mapboxgl.Map({container:"map",style:"https://tilecloud.github.io/tiny-tileserver/style.json",attributionControl:!0,hash:!0});n.addControl(new mapboxgl.NavigationControl),n.addControl(new mapboxgl.GeolocateControl),n.addControl(new t.default),n.addControl(new e.default({url:"https://github.com/tilecloud/mbgl-fork-me-control/"}));
 },{"@tilecloud/mbgl-tilecloud-control":"mg8D","../src/app":"ffN9"}]},{},["A2T1"], null)
-//# sourceMappingURL=/app.dcb05d44.map
+//# sourceMappingURL=app.dcb05d44.map
