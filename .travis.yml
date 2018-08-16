@@ -1,4 +1,22 @@
 language: node_js
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+branches:
+  only:
+  - master
+  - "/^v?[0-9\\.]+/"
 node_js:
 - '8'
 - '10'
+deploy:
+  provider: npm
+  email: hatatatehaze@gmail.com
+  api_key:
+    secure: EFQ1f/zen3BWJnUtXi2xfomPXS+1bgU1/Xs5UwYB8kMUyihxmsNGQ1m+1/0AJF3hFHGTj9I4OxdGt0LXaNfOOFZKAH+ru++PSNS539Y7KGloAYozz/xczmsbIWN17Rb6he6jAsggyycfWCYEDwED6FoyOG/FGOHOXZStaXCVptLdVFwlol/+jXO0JiHNxx5z3LH32+v6SmtG1GtLRFt3t7JvGcWd2H3OqZzTZ+0dIgb2vK1/a+FNA5GFtjePbADTNR2L8oEaLW4axeME0+jeUP/YmLgcB8Z0cdDBjKNT2InbRgOO7QT/2bLvQTFEnb1HaxDERlukfEc3xraz37DTea2nq5wo+aqmg4Tk/y1xeK2PlF6uL/dFivf4kJpepZAB62srrhOcFmoXa/N0WxN2yB8JWZK/W3K59QFDjJApR6ofOm7wVMaHMz7nyz+vCwi57XKjTkC5mj6eTcAGbJZRjv+lETjvtcVrdZaU+zD/ZGN3xoMz0Wf0tesPRJ4DlQUOjdcK3qzWkmPQzbuAoJwTtHJy9qnQxvqWFWGKQa0BaC1XXwGT5+lv7EyJsZM66pfhPa0B5QaICAQ4v31zers4oK04C37c5XCSjL/gDsHCoaVDPFmvADQPWbYk0WFnxoIcgVx7kpScrVwHcDAlkxGh9ODmqCW1CDeuUdo36Y8XUEs=
+  on:
+    branch: master
+    tags: true
+    repo: tilecloud/mbgl-fork-me-control
+  skip_cleanup: true

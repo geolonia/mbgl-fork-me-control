@@ -1,6 +1,7 @@
 # mbgl-fork-me-control
 
 [![Build Status](https://travis-ci.org/tilecloud/mbgl-fork-me-control.svg?branch=master)](https://travis-ci.org/tilecloud/mbgl-fork-me-control)
+[![npm version](https://badge.fury.io/js/%40tilecloud%2Fmbgl-fork-me-control.svg)](https://badge.fury.io/js/%40tilecloud%2Fmbgl-fork-me-control)
 
 This is a Mapbox GL JS plugin to add GitHub's fork-me ribbon.
 
