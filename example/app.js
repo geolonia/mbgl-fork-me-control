@@ -1,4 +1,5 @@
-import ForkMeConntrol from '../../src/app'
+import TileCloudControl from '@tilecloud/mbgl-tilecloud-control'
+import ForkMeConntrol from '../src/app'
 
 const map = new mapboxgl.Map({
   container: 'map',
@@ -6,8 +7,10 @@ const map = new mapboxgl.Map({
   attributionControl: true,
   hash: true
 });
+
 map.addControl(new mapboxgl.NavigationControl());
 map.addControl(new mapboxgl.GeolocateControl());
+map.addControl(new TileCloudControl());
 
 map.addControl(new ForkMeConntrol({
   url: 'https://github.com/tilecloud/mbgl-fork-me-control/',
