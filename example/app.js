@@ -1,3 +1,5 @@
+import 'babel-polyfill';
+
 import TileCloudControl from '@tilecloud/mbgl-tilecloud-control'
 import ForkMeConntrol from '../src/app'
 
