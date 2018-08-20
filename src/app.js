@@ -1,5 +1,7 @@
 "use strict"
 
+import 'babel-polyfill';
+
 const ForkMeConntrolOptions = {}
 
 const ForkMeConntrol = function(options) {
