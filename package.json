@@ -1,6 +1,6 @@
 {
   "name": "@tilecloud/mbgl-fork-me-control",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "",
   "main": "dist/mbgl-fork-me-control.js",
   "scripts": {
