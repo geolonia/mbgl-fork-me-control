@@ -1,5 +1,5 @@
 {
-  "name": "@tilecloud/mbgl-fork-me-control",
+  "name": "@geolonia/mbgl-fork-me-control",
   "version": "0.2.6",
   "description": "",
   "main": "dist/mbgl-fork-me-control.js",
@@ -9,12 +9,11 @@
     "build": "npm run build:lib && npm run build:site",
     "build:lib": "npm test && microbundle build src/index.js -o dist -f cjs",
     "build:site": "rm -fr docs && parcel build -d docs example/index.html --public-url '.' && touch docs/.nojekyll",
-    "test": "eslint \"src/**/*.js\"",
-    "postinstall": "node ./bin/postinstall.js"
+    "test": "eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tilecloud/mapbox-gl-tilecloud-control.git"
+    "url": "git+https://github.com/tilecloud/mbgl-fork-me-control.git"
   },
   "author": "",
   "license": "MIT",
