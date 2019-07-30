@@ -1,5 +1,7 @@
 # mbgl-fork-me-control
 
+`@tilecloud/mbgl-fork-me-control` has been deprecated and no longer won't be updated. Please use `@geolonia/mbgl-fork-me-control` instead.
+
 [![Build Status](https://travis-ci.org/tilecloud/mbgl-fork-me-control.svg?branch=master)](https://travis-ci.org/tilecloud/mbgl-fork-me-control)
 [![npm version](https://badge.fury.io/js/%40tilecloud%2Fmbgl-fork-me-control.svg)](https://badge.fury.io/js/%40tilecloud%2Fmbgl-fork-me-control)
 

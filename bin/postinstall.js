@@ -12,7 +12,7 @@ const main = () => {
     const newName = chalk.yellow.bold.bgBlack(`@geolonia/${name}`);
 
     const lines = [
-      `The package ${oldName} is deprecated and no longer updated.`,
+      `The package ${oldName} has been deprecated and no longer will be updated.`,
       `Please use ${newName} instead.`
     ];
 
