@@ -1,6 +1,6 @@
 {
   "name": "@geolonia/mbgl-fork-me-control",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "",
   "main": "dist/mbgl-fork-me-control.js",
   "scripts": {
