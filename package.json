@@ -9,7 +9,8 @@
     "build": "npm run build:lib && npm run build:site",
     "build:lib": "npm test && microbundle build src/index.js -o dist -f cjs",
     "build:site": "rm -fr docs && parcel build -d docs example/index.html --public-url '.' && touch docs/.nojekyll",
-    "test": "eslint \"src/**/*.js\""
+    "test": "eslint \"src/**/*.js\"",
+    "postinstall": "node ./bin/postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@tilecloud/mbgl-tilecloud-control": "^0.3.5",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.2",
     "eslint": "^5.16.0",
     "http-server": "^0.11.1",
     "microbundle": "^0.6.0",
