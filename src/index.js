@@ -11,8 +11,7 @@ class ForkMeConntrol {
 
     const img = 'https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png'
 
-    this.container.innerHTML = `<a><img style="" src="${img}" alt="Fork me on GitHub"></a>`
-    this.container.querySelector('a').href = this.url
+    this.container.innerHTML = `<a href="${this.url}"><img src="${img}" alt="Fork me on GitHub"></a>`
     this.container.setAttribute('style', `
       margin: 0;
       background: none;
