@@ -7,9 +7,9 @@
     "start": "cd docs && http-server -o",
     "watch": "parcel -d ${TMPDIR} example/index.html --open",
     "build": "npm run build:lib && npm run build:site && npm run build:plugin",
-    "build:lib": "npm test && microbundle build src/index.js -o dist -f cjs",
+    "build:lib": "rm -fr dist && npm test && microbundle build src/index.js -o dist -f cjs",
     "build:site": "rm -fr docs && parcel build -d docs example/index.html --public-url '.' && touch docs/.nojekyll",
-    "build:plugin": "npm test && microbundle build src/plugin.js -o dist/geolonia-fork-me-plugin.js -f cjs",
+    "build:plugin": "microbundle build src/plugin.js -o dist/geolonia-fork-me-plugin.js -f cjs && cp example/plugin.html docs/plugin.html && cp dist/geolonia-fork-me-plugin.js docs/geolonia-fork-me-plugin.js && cp example/embed.min.js docs/embed.min.js",
     "test": "eslint \"src/**/*.js\""
   },
   "repository": {
